@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 3
 Title "Ethernet Phy and Switch"
 Date ""
-Rev ""
+Rev "B"
 Comp ""
 Comment1 "S. JOHNSON"
 Comment2 ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:LAN9355-SLJ_ICS U2
+L SLJ_ICS:LAN9355 U2
 U 1 1 5E56EED2
 P 8300 5050
 AR Path="/5E56EED2" Ref="U2"  Part="1" 
@@ -85,9 +85,11 @@ Wire Wire Line
 Wire Wire Line
 	10300 4250 9900 4250
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:+3V3-SLJ_Pwr_symbols #PWR0137
+L SLJ_Pwr_symbols:+3V3 #PWR0137
 U 1 1 5E5B0202
 P 10150 2400
+AR Path="/5E5B0202" Ref="#PWR0137"  Part="1" 
+AR Path="/5E56E770/5E5B0202" Ref="#PWR0137"  Part="1" 
 F 0 "#PWR0137" H 10481 2324 50  0001 C CNN
 F 1 "+3V3" H 10165 2603 50  0000 C CNN
 F 2 "" H 10150 2400 50  0001 C CNN
@@ -98,7 +100,7 @@ $EndComp
 Wire Wire Line
 	10150 2400 10150 2500
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:BEAD_BLM18KG221SN1D-SLJ_INDUCTOR FB2
+L SLJ_INDUCTOR:BEAD_BLM18KG221SN1D FB2
 U 1 1 5E5B4BD1
 P 11450 4450
 AR Path="/5E5B4BD1" Ref="FB2"  Part="1" 
@@ -116,7 +118,7 @@ F 8 ".050 Ohm" H 11450 4450 50  0001 C CNN "DC OHM"
 	0    1    1    0   
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:BEAD_BLM18KG221SN1D-SLJ_INDUCTOR FB4
+L SLJ_INDUCTOR:BEAD_BLM18KG221SN1D FB4
 U 1 1 5E5B68F8
 P 12300 4550
 AR Path="/5E5B68F8" Ref="FB4"  Part="1" 
@@ -134,7 +136,7 @@ F 8 ".050 Ohm" H 12300 4550 50  0001 C CNN "DC OHM"
 	0    1    1    0   
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:BEAD_BLM18KG221SN1D-SLJ_INDUCTOR FB3
+L SLJ_INDUCTOR:BEAD_BLM18KG221SN1D FB3
 U 1 1 5E5B7312
 P 11500 4650
 AR Path="/5E5B7312" Ref="FB3"  Part="1" 
@@ -180,9 +182,11 @@ Wire Wire Line
 	12900 4450 12900 4000
 Connection ~ 12500 4450
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:+3V3-SLJ_Pwr_symbols #PWR0138
+L SLJ_Pwr_symbols:+3V3 #PWR0138
 U 1 1 5E5BA866
 P 12900 4000
+AR Path="/5E5BA866" Ref="#PWR0138"  Part="1" 
+AR Path="/5E56E770/5E5BA866" Ref="#PWR0138"  Part="1" 
 F 0 "#PWR0138" H 13231 3924 50  0001 C CNN
 F 1 "+3V3" H 12915 4203 50  0000 C CNN
 F 2 "" H 12900 4000 50  0001 C CNN
@@ -191,7 +195,7 @@ F 3 "" H 12900 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:BEAD_BLM18KG221SN1D-SLJ_INDUCTOR FB1
+L SLJ_INDUCTOR:BEAD_BLM18KG221SN1D FB1
 U 1 1 5E5BAEAD
 P 10900 3850
 AR Path="/5E5BAEAD" Ref="FB1"  Part="1" 
@@ -219,7 +223,7 @@ Wire Wire Line
 Connection ~ 10300 4250
 NoConn ~ 10700 3950
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_0.1UF_10V_X5R-SLJ_Capacitor_0402 C14
+L SLJ_Capacitor_0402:C_0402_0.1UF_10V_X5R C14
 U 1 1 5E5BD8F7
 P 10450 2850
 AR Path="/5E5BD8F7" Ref="C14"  Part="1" 
@@ -240,7 +244,7 @@ F 11 "0402" H 10565 2764 50  0000 L CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_0.1UF_10V_X5R-SLJ_Capacitor_0402 C16
+L SLJ_Capacitor_0402:C_0402_0.1UF_10V_X5R C16
 U 1 1 5E5C0D7F
 P 10900 2850
 AR Path="/5E5C0D7F" Ref="C16"  Part="1" 
@@ -261,7 +265,7 @@ F 11 "0402" H 11015 2764 50  0000 L CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_0.1UF_10V_X5R-SLJ_Capacitor_0402 C17
+L SLJ_Capacitor_0402:C_0402_0.1UF_10V_X5R C17
 U 1 1 5E5C22B2
 P 11350 2850
 AR Path="/5E5C22B2" Ref="C17"  Part="1" 
@@ -282,7 +286,7 @@ F 11 "0402" H 11465 2764 50  0000 L CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_0.1UF_10V_X5R-SLJ_Capacitor_0402 C19
+L SLJ_Capacitor_0402:C_0402_0.1UF_10V_X5R C19
 U 1 1 5E5C2814
 P 11800 2850
 AR Path="/5E5C2814" Ref="C19"  Part="1" 
@@ -303,7 +307,7 @@ F 11 "0402" H 11915 2764 50  0000 L CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_0.1UF_10V_X5R-SLJ_Capacitor_0402 C21
+L SLJ_Capacitor_0402:C_0402_0.1UF_10V_X5R C21
 U 1 1 5E5C2C7E
 P 12250 2850
 AR Path="/5E5C2C7E" Ref="C21"  Part="1" 
@@ -324,7 +328,7 @@ F 11 "0402" H 12365 2764 50  0000 L CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_0.1UF_10V_X5R-SLJ_Capacitor_0402 C23
+L SLJ_Capacitor_0402:C_0402_0.1UF_10V_X5R C23
 U 1 1 5E5C31FF
 P 12700 2850
 AR Path="/5E5C31FF" Ref="C23"  Part="1" 
@@ -418,7 +422,7 @@ F 3 "" H 6450 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_0.1UF_10V_X5R-SLJ_Capacitor_0402 C18
+L SLJ_Capacitor_0402:C_0402_0.1UF_10V_X5R C18
 U 1 1 5E5CE502
 P 11800 1250
 AR Path="/5E5CE502" Ref="C18"  Part="1" 
@@ -472,7 +476,7 @@ Wire Wire Line
 Text Label 11350 950  0    50   ~ 0
 +3v3_TXRX1
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_0.1UF_10V_X5R-SLJ_Capacitor_0402 C22
+L SLJ_Capacitor_0402:C_0402_0.1UF_10V_X5R C22
 U 1 1 5E5D520C
 P 12450 1250
 AR Path="/5E5D520C" Ref="C22"  Part="1" 
@@ -510,7 +514,7 @@ Wire Wire Line
 Wire Wire Line
 	12450 950  11950 950 
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_0.1UF_10V_X5R-SLJ_Capacitor_0402 C24
+L SLJ_Capacitor_0402:C_0402_0.1UF_10V_X5R C24
 U 1 1 5E5D6E66
 P 13100 1250
 AR Path="/5E5D6E66" Ref="C24"  Part="1" 
@@ -554,7 +558,7 @@ Text Label 12650 950  0    50   ~ 0
 Text Label 10400 4250 0    50   ~ 0
 +1v2_TX
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_0.1UF_10V_X5R-SLJ_Capacitor_0402 C25
+L SLJ_Capacitor_0402:C_0402_0.1UF_10V_X5R C25
 U 1 1 5E5D9166
 P 14050 1250
 AR Path="/5E5D9166" Ref="C25"  Part="1" 
@@ -590,7 +594,7 @@ Wire Wire Line
 Wire Wire Line
 	14050 1050 14050 950 
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_0.1UF_10V_X5R-SLJ_Capacitor_0402 C26
+L SLJ_Capacitor_0402:C_0402_0.1UF_10V_X5R C26
 U 1 1 5E5DA567
 P 14550 1250
 AR Path="/5E5DA567" Ref="C26"  Part="1" 
@@ -624,7 +628,7 @@ Wire Wire Line
 Text Label 14150 950  0    50   ~ 0
 +1v2_TX
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_1UF_10V_X5R-SLJ_Capacitor_0402 C10
+L SLJ_Capacitor_0402:C_0402_1UF_10V_X5R C10
 U 1 1 5E5DEAC3
 P 8800 1150
 AR Path="/5E5DEAC3" Ref="C10"  Part="1" 
@@ -645,7 +649,7 @@ F 11 "0402" H 8915 1064 50  0000 L CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_0.1UF_10V_X5R-SLJ_Capacitor_0402 C11
+L SLJ_Capacitor_0402:C_0402_0.1UF_10V_X5R C11
 U 1 1 5E5E002A
 P 9350 1150
 AR Path="/5E5E002A" Ref="C11"  Part="1" 
@@ -666,7 +670,7 @@ F 11 "0402" H 9465 1064 50  0000 L CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_0.1UF_10V_X5R-SLJ_Capacitor_0402 C12
+L SLJ_Capacitor_0402:C_0402_0.1UF_10V_X5R C12
 U 1 1 5E5E092E
 P 9850 1150
 AR Path="/5E5E092E" Ref="C12"  Part="1" 
@@ -687,7 +691,7 @@ F 11 "0402" H 9965 1064 50  0000 L CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_470pF_50V_X5R-SLJ_Capacitor_0402 C13
+L SLJ_Capacitor_0402:C_0402_470pF_50V_X5R C13
 U 1 1 5E5E1E6C
 P 10350 1150
 AR Path="/5E5E1E6C" Ref="C13"  Part="1" 
@@ -771,7 +775,7 @@ F 3 "" H 10100 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_12K1_1%_0402-SLJ_Resistor_0402 R75
+L SLJ_Resistor_0402:R_12K1_1%_0402 R75
 U 1 1 5E5F60BF
 P 10950 7350
 F 0 "R75" V 10900 7250 50  0000 C CNN
@@ -805,9 +809,11 @@ $EndComp
 Text Label 10250 7350 0    50   ~ 0
 RBIAS
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:ABM12W-25.0000MHZ-6-B1U-T3-SLJ_OSC_CRYSTAL Y1
+L SLJ_OSC_CRYSTAL:ABM12W-25.0000MHZ-6-B1U-T3 Y1
 U 1 1 5E5FF738
 P 11350 7800
+AR Path="/5E5FF738" Ref="Y1"  Part="1" 
+AR Path="/5E56E770/5E5FF738" Ref="Y1"  Part="1" 
 F 0 "Y1" V 11304 8044 50  0000 L CNN
 F 1 "ABM12W-25.0000MHZ-6-B1U-T3" H 11950 7300 50  0001 L CNN
 F 2 "SLJ_Crystals_Osc:XTAL_ABM12W-24.0000MHZ-6-B1U-T3" H 12250 7200 50  0001 C CNN
@@ -845,7 +851,7 @@ Connection ~ 10550 7800
 Wire Wire Line
 	10550 7800 11150 7800
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_8pF_50V_X5R-SLJ_Capacitor_0402 C15
+L SLJ_Capacitor_0402:C_0402_8pF_50V_X5R C15
 U 1 1 5E60FEE4
 P 10700 8550
 AR Path="/5E60FEE4" Ref="C15"  Part="1" 
@@ -866,7 +872,7 @@ F 11 "0402" H 10815 8464 50  0000 L CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_8pF_50V_X5R-SLJ_Capacitor_0402 C20
+L SLJ_Capacitor_0402:C_0402_8pF_50V_X5R C20
 U 1 1 5E610FCA
 P 12000 8550
 AR Path="/5E610FCA" Ref="C20"  Part="1" 
@@ -1071,7 +1077,7 @@ P0_MODE2
 Text Label 1000 5150 0    50   ~ 0
 P0_MODE3
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R47
+L SLJ_Resistor_0603:R_10k_1%_0603 R47
 U 1 1 5E89107F
 P 850 4850
 F 0 "R47" H 918 4946 50  0000 L CNN
@@ -1088,7 +1094,7 @@ F 9 "1%" H 850 4850 50  0001 C CNN "Tolerance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R48
+L SLJ_Resistor_0603:R_10k_1%_0603 R48
 U 1 1 5E8926BA
 P 850 5550
 F 0 "R48" H 918 5646 50  0000 L CNN
@@ -1106,9 +1112,11 @@ F 10 "DNI" H 1000 5450 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:+3V3-SLJ_Pwr_symbols #PWR0149
+L SLJ_Pwr_symbols:+3V3 #PWR0149
 U 1 1 5E892E72
 P 850 4400
+AR Path="/5E892E72" Ref="#PWR0149"  Part="1" 
+AR Path="/5E56E770/5E892E72" Ref="#PWR0149"  Part="1" 
 F 0 "#PWR0149" H 1181 4324 50  0001 C CNN
 F 1 "+3V3" H 865 4603 50  0000 C CNN
 F 2 "" H 850 4400 50  0001 C CNN
@@ -1139,7 +1147,7 @@ Connection ~ 850  5150
 Wire Wire Line
 	850  5150 850  5350
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R54
+L SLJ_Resistor_0603:R_10k_1%_0603 R54
 U 1 1 5E8B126F
 P 1600 4850
 F 0 "R54" H 1668 4946 50  0000 L CNN
@@ -1157,7 +1165,7 @@ F 10 "" H 1600 4850 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R55
+L SLJ_Resistor_0603:R_10k_1%_0603 R55
 U 1 1 5E8B127C
 P 1600 5550
 F 0 "R55" H 1668 5646 50  0000 L CNN
@@ -1175,9 +1183,11 @@ F 10 "DNI" H 1750 5450 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:+3V3-SLJ_Pwr_symbols #PWR0151
+L SLJ_Pwr_symbols:+3V3 #PWR0151
 U 1 1 5E8B1282
 P 1600 4400
+AR Path="/5E8B1282" Ref="#PWR0151"  Part="1" 
+AR Path="/5E56E770/5E8B1282" Ref="#PWR0151"  Part="1" 
 F 0 "#PWR0151" H 1931 4324 50  0001 C CNN
 F 1 "+3V3" H 1615 4603 50  0000 C CNN
 F 2 "" H 1600 4400 50  0001 C CNN
@@ -1208,7 +1218,7 @@ Connection ~ 1600 5150
 Wire Wire Line
 	1600 5150 1600 5350
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R61
+L SLJ_Resistor_0603:R_10k_1%_0603 R61
 U 1 1 5E8B9DA0
 P 2300 4850
 F 0 "R61" H 2368 4946 50  0000 L CNN
@@ -1226,7 +1236,7 @@ F 10 "DNI" H 2450 4750 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R62
+L SLJ_Resistor_0603:R_10k_1%_0603 R62
 U 1 1 5E8B9DAD
 P 2300 5550
 F 0 "R62" H 2368 5646 50  0000 L CNN
@@ -1244,9 +1254,11 @@ F 10 "" H 2300 5550 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:+3V3-SLJ_Pwr_symbols #PWR0153
+L SLJ_Pwr_symbols:+3V3 #PWR0153
 U 1 1 5E8B9DB3
 P 2300 4400
+AR Path="/5E8B9DB3" Ref="#PWR0153"  Part="1" 
+AR Path="/5E56E770/5E8B9DB3" Ref="#PWR0153"  Part="1" 
 F 0 "#PWR0153" H 2631 4324 50  0001 C CNN
 F 1 "+3V3" H 2315 4603 50  0000 C CNN
 F 2 "" H 2300 4400 50  0001 C CNN
@@ -1277,7 +1289,7 @@ Connection ~ 2300 5150
 Wire Wire Line
 	2300 5150 2300 5350
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R65
+L SLJ_Resistor_0603:R_10k_1%_0603 R65
 U 1 1 5E8C2F89
 P 3000 4850
 F 0 "R65" H 3068 4946 50  0000 L CNN
@@ -1295,7 +1307,7 @@ F 10 "DNI" H 3150 4750 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R66
+L SLJ_Resistor_0603:R_10k_1%_0603 R66
 U 1 1 5E8C2F96
 P 3000 5550
 F 0 "R66" H 3068 5646 50  0000 L CNN
@@ -1313,9 +1325,11 @@ F 10 "" H 3000 5550 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:+3V3-SLJ_Pwr_symbols #PWR0155
+L SLJ_Pwr_symbols:+3V3 #PWR0155
 U 1 1 5E8C2F9C
 P 3000 4400
+AR Path="/5E8C2F9C" Ref="#PWR0155"  Part="1" 
+AR Path="/5E56E770/5E8C2F9C" Ref="#PWR0155"  Part="1" 
 F 0 "#PWR0155" H 3331 4324 50  0001 C CNN
 F 1 "+3V3" H 3015 4603 50  0000 C CNN
 F 2 "" H 3000 4400 50  0001 C CNN
@@ -1346,7 +1360,7 @@ Connection ~ 3000 5150
 Wire Wire Line
 	3000 5150 3000 5350
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R56
+L SLJ_Resistor_0603:R_10k_1%_0603 R56
 U 1 1 5E8CC637
 P 1600 7350
 F 0 "R56" H 1668 7446 50  0000 L CNN
@@ -1364,7 +1378,7 @@ F 10 "" H 1600 7350 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R57
+L SLJ_Resistor_0603:R_10k_1%_0603 R57
 U 1 1 5E8CC644
 P 1600 8050
 F 0 "R57" H 1668 8146 50  0000 L CNN
@@ -1382,9 +1396,11 @@ F 10 "DNI" H 1750 7950 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:+3V3-SLJ_Pwr_symbols #PWR0157
+L SLJ_Pwr_symbols:+3V3 #PWR0157
 U 1 1 5E8CC64A
 P 1600 6900
+AR Path="/5E8CC64A" Ref="#PWR0157"  Part="1" 
+AR Path="/5E56E770/5E8CC64A" Ref="#PWR0157"  Part="1" 
 F 0 "#PWR0157" H 1931 6824 50  0001 C CNN
 F 1 "+3V3" H 1615 7103 50  0000 C CNN
 F 2 "" H 1600 6900 50  0001 C CNN
@@ -1415,7 +1431,7 @@ Connection ~ 1600 7650
 Wire Wire Line
 	1600 7650 1600 7850
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R63
+L SLJ_Resistor_0603:R_10k_1%_0603 R63
 U 1 1 5E8D7BD0
 P 2300 7350
 F 0 "R63" H 2368 7446 50  0000 L CNN
@@ -1433,7 +1449,7 @@ F 10 "" H 2300 7350 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R64
+L SLJ_Resistor_0603:R_10k_1%_0603 R64
 U 1 1 5E8D7BDD
 P 2300 8050
 F 0 "R64" H 2368 8146 50  0000 L CNN
@@ -1451,9 +1467,11 @@ F 10 "DNI" H 2450 7950 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:+3V3-SLJ_Pwr_symbols #PWR0159
+L SLJ_Pwr_symbols:+3V3 #PWR0159
 U 1 1 5E8D7BE3
 P 2300 6900
+AR Path="/5E8D7BE3" Ref="#PWR0159"  Part="1" 
+AR Path="/5E56E770/5E8D7BE3" Ref="#PWR0159"  Part="1" 
 F 0 "#PWR0159" H 2631 6824 50  0001 C CNN
 F 1 "+3V3" H 2315 7103 50  0000 C CNN
 F 2 "" H 2300 6900 50  0001 C CNN
@@ -1484,7 +1502,7 @@ Connection ~ 2300 7650
 Wire Wire Line
 	2300 7650 2300 7850
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R67
+L SLJ_Resistor_0603:R_10k_1%_0603 R67
 U 1 1 5E8ED291
 P 3000 7350
 F 0 "R67" H 3068 7446 50  0000 L CNN
@@ -1502,7 +1520,7 @@ F 10 "DNI" H 3150 7250 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R68
+L SLJ_Resistor_0603:R_10k_1%_0603 R68
 U 1 1 5E8ED29E
 P 3000 8050
 F 0 "R68" H 3068 8146 50  0000 L CNN
@@ -1520,9 +1538,11 @@ F 10 "" H 3000 8050 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:+3V3-SLJ_Pwr_symbols #PWR0161
+L SLJ_Pwr_symbols:+3V3 #PWR0161
 U 1 1 5E8ED2A4
 P 3000 6900
+AR Path="/5E8ED2A4" Ref="#PWR0161"  Part="1" 
+AR Path="/5E56E770/5E8ED2A4" Ref="#PWR0161"  Part="1" 
 F 0 "#PWR0161" H 3331 6824 50  0001 C CNN
 F 1 "+3V3" H 3015 7103 50  0000 C CNN
 F 2 "" H 3000 6900 50  0001 C CNN
@@ -1553,7 +1573,7 @@ Connection ~ 3000 7650
 Wire Wire Line
 	3000 7650 3000 7850
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R71
+L SLJ_Resistor_0603:R_10k_1%_0603 R71
 U 1 1 5E8F80D2
 P 3700 7350
 F 0 "R71" H 3768 7446 50  0000 L CNN
@@ -1571,7 +1591,7 @@ F 10 "DNI" H 3850 7250 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R72
+L SLJ_Resistor_0603:R_10k_1%_0603 R72
 U 1 1 5E8F80DF
 P 3700 8050
 F 0 "R72" H 3768 8146 50  0000 L CNN
@@ -1589,9 +1609,11 @@ F 10 "" H 3700 8050 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:+3V3-SLJ_Pwr_symbols #PWR0163
+L SLJ_Pwr_symbols:+3V3 #PWR0163
 U 1 1 5E8F80E5
 P 3700 6900
+AR Path="/5E8F80E5" Ref="#PWR0163"  Part="1" 
+AR Path="/5E56E770/5E8F80E5" Ref="#PWR0163"  Part="1" 
 F 0 "#PWR0163" H 4031 6824 50  0001 C CNN
 F 1 "+3V3" H 3715 7103 50  0000 C CNN
 F 2 "" H 3700 6900 50  0001 C CNN
@@ -1654,7 +1676,7 @@ FXSDA
 Text Label 10150 7250 0    50   ~ 0
 FXSDB
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R51
+L SLJ_Resistor_0603:R_10k_1%_0603 R51
 U 1 1 5E96E23D
 P 900 9650
 F 0 "R51" H 968 9746 50  0000 L CNN
@@ -1687,7 +1709,7 @@ $EndComp
 Wire Wire Line
 	900  9250 900  9450
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R58
+L SLJ_Resistor_0603:R_10k_1%_0603 R58
 U 1 1 5E97B2ED
 P 1600 9650
 F 0 "R58" H 1668 9746 50  0000 L CNN
@@ -1768,7 +1790,7 @@ Wire Wire Line
 Text Notes 13400 7650 0    50   ~ 0
 EEPROM ADDRESS: [1010][000][R/W_L]
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_0.1UF_10V_X5R-SLJ_Capacitor_0402 C27
+L SLJ_Capacitor_0402:C_0402_0.1UF_10V_X5R C27
 U 1 1 5EA0FE2E
 P 15250 6550
 AR Path="/5EA0FE2E" Ref="C27"  Part="1" 
@@ -1798,9 +1820,11 @@ Wire Wire Line
 Wire Wire Line
 	15250 6000 15250 6350
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:+3V3-SLJ_Pwr_symbols #PWR0168
+L SLJ_Pwr_symbols:+3V3 #PWR0168
 U 1 1 5EA2CB45
 P 14000 5700
+AR Path="/5EA2CB45" Ref="#PWR0168"  Part="1" 
+AR Path="/5E56E770/5EA2CB45" Ref="#PWR0168"  Part="1" 
 F 0 "#PWR0168" H 14331 5624 50  0001 C CNN
 F 1 "+3V3" H 14015 5903 50  0000 C CNN
 F 2 "" H 14000 5700 50  0001 C CNN
@@ -1809,7 +1833,7 @@ F 3 "" H 14000 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_2K_1%_0402-SLJ_Resistor_0402 R76
+L SLJ_Resistor_0402:R_2K_1%_0402 R76
 U 1 1 5EA2F115
 P 12100 6250
 F 0 "R76" H 12168 6346 50  0000 L CNN
@@ -1827,7 +1851,7 @@ F 10 "" H 12100 6250 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_2K_1%_0402-SLJ_Resistor_0402 R77
+L SLJ_Resistor_0402:R_2K_1%_0402 R77
 U 1 1 5EA2FEFC
 P 12550 6250
 F 0 "R77" H 12618 6346 50  0000 L CNN
@@ -1913,7 +1937,7 @@ Wire Notes Line
 Text Notes 2650 4050 0    50   ~ 0
 P0_clock_strength_strap = 0 \n12mA
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R49
+L SLJ_Resistor_0603:R_10k_1%_0603 R49
 U 1 1 5E935373
 P 850 7350
 F 0 "R49" H 918 7446 50  0000 L CNN
@@ -1931,7 +1955,7 @@ F 10 "" H 850 7350 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R50
+L SLJ_Resistor_0603:R_10k_1%_0603 R50
 U 1 1 5E935380
 P 850 8050
 F 0 "R50" H 918 8146 50  0000 L CNN
@@ -1949,9 +1973,11 @@ F 10 "DNI" H 1000 7950 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:+3V3-SLJ_Pwr_symbols #PWR0169
+L SLJ_Pwr_symbols:+3V3 #PWR0169
 U 1 1 5E935386
 P 850 6900
+AR Path="/5E935386" Ref="#PWR0169"  Part="1" 
+AR Path="/5E56E770/5E935386" Ref="#PWR0169"  Part="1" 
 F 0 "#PWR0169" H 1181 6824 50  0001 C CNN
 F 1 "+3V3" H 865 7103 50  0000 C CNN
 F 2 "" H 850 6900 50  0001 C CNN
@@ -2012,7 +2038,7 @@ P1_clock_strength_strap = 0 \n12mA
 Text Label 6500 3250 2    50   ~ 0
 PHYADD
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R52
+L SLJ_Resistor_0603:R_10k_1%_0603 R52
 U 1 1 5E9CEDEE
 P 1050 1850
 F 0 "R52" H 1118 1946 50  0000 L CNN
@@ -2030,7 +2056,7 @@ F 10 "DNI" H 1200 1750 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R53
+L SLJ_Resistor_0603:R_10k_1%_0603 R53
 U 1 1 5E9CEDFB
 P 1050 2550
 F 0 "R53" H 1118 2646 50  0000 L CNN
@@ -2048,9 +2074,11 @@ F 10 "" H 1050 2550 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:+3V3-SLJ_Pwr_symbols #PWR0171
+L SLJ_Pwr_symbols:+3V3 #PWR0171
 U 1 1 5E9CEE01
 P 1050 1400
+AR Path="/5E9CEE01" Ref="#PWR0171"  Part="1" 
+AR Path="/5E56E770/5E9CEE01" Ref="#PWR0171"  Part="1" 
 F 0 "#PWR0171" H 1381 1324 50  0001 C CNN
 F 1 "+3V3" H 1065 1603 50  0000 C CNN
 F 2 "" H 1050 1400 50  0001 C CNN
@@ -2095,7 +2123,7 @@ Wire Wire Line
 Text Label 10150 7050 0    50   ~ 0
 FXLOSEN
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R73
+L SLJ_Resistor_0603:R_10k_1%_0603 R73
 U 1 1 5EA04D6A
 P 4750 9050
 F 0 "R73" H 4818 9146 50  0000 L CNN
@@ -2113,7 +2141,7 @@ F 10 "DNI" H 4900 8950 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R74
+L SLJ_Resistor_0603:R_10k_1%_0603 R74
 U 1 1 5EA04D77
 P 4750 9750
 F 0 "R74" H 4818 9846 50  0000 L CNN
@@ -2131,9 +2159,11 @@ F 10 "" H 4750 9750 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:+3V3-SLJ_Pwr_symbols #PWR0173
+L SLJ_Pwr_symbols:+3V3 #PWR0173
 U 1 1 5EA04D7D
 P 4750 8600
+AR Path="/5EA04D7D" Ref="#PWR0173"  Part="1" 
+AR Path="/5E56E770/5EA04D7D" Ref="#PWR0173"  Part="1" 
 F 0 "#PWR0173" H 5081 8524 50  0001 C CNN
 F 1 "+3V3" H 4765 8803 50  0000 C CNN
 F 2 "" H 4750 8600 50  0001 C CNN
@@ -2182,9 +2212,11 @@ Wire Wire Line
 Text Label 6500 3150 2    50   ~ 0
 1588EN
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:+3V3-SLJ_Pwr_symbols #PWR0175
+L SLJ_Pwr_symbols:+3V3 #PWR0175
 U 1 1 5EA4109C
 P 1950 1400
+AR Path="/5EA4109C" Ref="#PWR0175"  Part="1" 
+AR Path="/5E56E770/5EA4109C" Ref="#PWR0175"  Part="1" 
 F 0 "#PWR0175" H 2281 1324 50  0001 C CNN
 F 1 "+3V3" H 1965 1603 50  0000 C CNN
 F 2 "" H 1950 1400 50  0001 C CNN
@@ -2225,7 +2257,7 @@ Wire Notes Line
 Text Label 6500 2750 2    50   ~ 0
 MNGT0
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R60
+L SLJ_Resistor_0603:R_10k_1%_0603 R60
 U 1 1 5EA41096
 P 1950 2550
 F 0 "R60" H 2018 2646 50  0000 L CNN
@@ -2243,7 +2275,7 @@ F 10 "" H 1950 2550 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R59
+L SLJ_Resistor_0603:R_10k_1%_0603 R59
 U 1 1 5EA41089
 P 1950 1850
 F 0 "R59" H 2018 1946 50  0000 L CNN
@@ -2263,9 +2295,11 @@ $EndComp
 Text Label 2350 2150 2    50   ~ 0
 MNGT0
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:+3V3-SLJ_Pwr_symbols #PWR0177
+L SLJ_Pwr_symbols:+3V3 #PWR0177
 U 1 1 5EAF2926
 P 3150 1400
+AR Path="/5EAF2926" Ref="#PWR0177"  Part="1" 
+AR Path="/5E56E770/5EAF2926" Ref="#PWR0177"  Part="1" 
 F 0 "#PWR0177" H 3481 1324 50  0001 C CNN
 F 1 "+3V3" H 3165 1603 50  0000 C CNN
 F 2 "" H 3150 1400 50  0001 C CNN
@@ -2304,7 +2338,7 @@ eeprom_size_strap = 1 \n32K bits
 Wire Notes Line
 	2950 1100 2950 1200
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R70
+L SLJ_Resistor_0603:R_10k_1%_0603 R70
 U 1 1 5EAF2943
 P 3150 2550
 F 0 "R70" H 3218 2646 50  0000 L CNN
@@ -2322,7 +2356,7 @@ F 10 "DNI" H 3300 2450 50  0000 C CNN "DNI"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R69
+L SLJ_Resistor_0603:R_10k_1%_0603 R69
 U 1 1 5EAF2950
 P 3150 1850
 F 0 "R69" H 3218 1946 50  0000 L CNN
@@ -2351,7 +2385,7 @@ Wire Notes Line style solid rgb(0, 194, 194)
 Wire Notes Line style solid rgb(0, 194, 194)
 	7800 800  4600 800 
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10k_1%_0603-SLJ_Resistor_0603 R78
+L SLJ_Resistor_0603:R_10k_1%_0603 R78
 U 1 1 5EBCA6A3
 P 11650 6250
 F 0 "R78" H 11718 6346 50  0000 L CNN

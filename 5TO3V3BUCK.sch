@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 3
 Title ""
 Date ""
-Rev ""
+Rev "B"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:NCP1597A-SLJ_POWER U1
+L SLJ_POWER:NCP1597A U1
 U 1 1 5E499ED1
 P 7700 4850
+AR Path="/5E499ED1" Ref="U1"  Part="1" 
+AR Path="/5E498E5A/5E499ED1" Ref="U1"  Part="1" 
 F 0 "U1" H 7700 5175 50  0000 C CNN
 F 1 "NCP1597A" H 7700 5084 50  0000 C CNN
 F 2 "Housings_DFN_QFN:DFN-6-1EP_3x3mm_Pitch0.95mm" H 7700 4450 50  0001 C CNN
@@ -29,9 +31,11 @@ $EndComp
 Wire Wire Line
 	7200 4750 6900 4750
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:L_3.3uH_2.4A_SMT_4x4-SLJ_INDUCTOR L1
+L SLJ_INDUCTOR:L_3.3uH_2.4A_SMT_4x4 L1
 U 1 1 5E49FF50
 P 8950 4750
+AR Path="/5E49FF50" Ref="L1"  Part="1" 
+AR Path="/5E498E5A/5E49FF50" Ref="L1"  Part="1" 
 F 0 "L1" V 8769 4750 50  0000 C CNN
 F 1 "L_3.3uH_2.4A_SMT_4x4" V 8900 5000 50  0000 C CNN
 F 2 "SLJ_SMT:Inductor_Abracon_ASPI-4030" H 8950 4750 50  0001 C CNN
@@ -72,7 +76,7 @@ Text HLabel 4900 4750 0    50   Input ~ 0
 Text HLabel 10700 4750 2    50   Output ~ 0
 3V3_OUT
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_24K9_1%_0402-SLJ_Resistor_0402 R45
+L SLJ_Resistor_0402:R_24K9_1%_0402 R45
 U 1 1 5E4A0422
 P 9500 5050
 F 0 "R45" H 9568 5146 50  0000 L CNN
@@ -133,9 +137,11 @@ Connection ~ 10550 4750
 Wire Wire Line
 	10550 4750 10700 4750
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0603_22UF_10V_X5R-SLJ_Capacitors_0603 C6
+L SLJ_Capacitors_0603:C_0603_22UF_10V_X5R C6
 U 1 1 5E4A46C9
 P 6200 5350
+AR Path="/5E4A46C9" Ref="C6"  Part="1" 
+AR Path="/5E498E5A/5E4A46C9" Ref="C6"  Part="1" 
 F 0 "C6" H 6315 5537 50  0000 L CNN
 F 1 "C_0603_22UF_10V_X5R" H 6600 4900 50  0001 L CNN
 F 2 "Capacitors_SMD:C_0603_1608Metric" H 6238 5250 50  0001 C CNN
@@ -159,9 +165,11 @@ Wire Wire Line
 Wire Wire Line
 	6200 4850 6650 4850
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0603_22UF_10V_X5R-SLJ_Capacitors_0603 C8
+L SLJ_Capacitors_0603:C_0603_22UF_10V_X5R C8
 U 1 1 5E4A5587
 P 10100 5300
+AR Path="/5E4A5587" Ref="C8"  Part="1" 
+AR Path="/5E498E5A/5E4A5587" Ref="C8"  Part="1" 
 F 0 "C8" H 10215 5487 50  0000 L CNN
 F 1 "C_0603_22UF_10V_X5R" H 10500 4850 50  0001 L CNN
 F 2 "Capacitors_SMD:C_0603_1608Metric" H 10138 5200 50  0001 C CNN
@@ -178,9 +186,11 @@ F 11 "0603" H 10215 5214 50  0000 L CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0603_22UF_10V_X5R-SLJ_Capacitors_0603 C9
+L SLJ_Capacitors_0603:C_0603_22UF_10V_X5R C9
 U 1 1 5E4A601E
 P 10550 5300
+AR Path="/5E4A601E" Ref="C9"  Part="1" 
+AR Path="/5E498E5A/5E4A601E" Ref="C9"  Part="1" 
 F 0 "C9" H 10665 5487 50  0000 L CNN
 F 1 "C_0603_22UF_10V_X5R" H 10950 4850 50  0001 L CNN
 F 2 "Capacitors_SMD:C_0603_1608Metric" H 10588 5200 50  0001 C CNN
@@ -197,9 +207,11 @@ F 11 "0603" H 10665 5214 50  0000 L CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0603_22UF_10V_X5R-SLJ_Capacitors_0603 C5
+L SLJ_Capacitors_0603:C_0603_22UF_10V_X5R C5
 U 1 1 5E4A69EA
 P 5800 5350
+AR Path="/5E4A69EA" Ref="C5"  Part="1" 
+AR Path="/5E498E5A/5E4A69EA" Ref="C5"  Part="1" 
 F 0 "C5" H 5915 5537 50  0000 L CNN
 F 1 "C_0603_22UF_10V_X5R" H 6200 4900 50  0001 L CNN
 F 2 "Capacitors_SMD:C_0603_1608Metric" H 5838 5250 50  0001 C CNN
@@ -216,7 +228,7 @@ F 11 "0603" H 5915 5264 50  0000 L CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:C_0402_0.1UF_10V_X5R-SLJ_Capacitor_0402 C?
+L SLJ_Capacitor_0402:C_0402_0.1UF_10V_X5R C?
 U 1 1 5E4A84E0
 P 6650 5350
 AR Path="/5E4A84E0" Ref="C?"  Part="1" 
@@ -266,7 +278,7 @@ Connection ~ 6900 4750
 Wire Wire Line
 	6900 4750 5050 4750
 $Comp
-L F7MicroEmbedBreakout_RevA-rescue:R_10K_1%_0402-SLJ_Resistor_0402 R44
+L SLJ_Resistor_0402:R_10K_1%_0402 R44
 U 1 1 5E4AC103
 P 5350 4950
 F 0 "R44" V 5450 5000 50  0000 C CNN
