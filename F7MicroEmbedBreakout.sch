@@ -5,8 +5,8 @@ $Descr D 34000 22000
 encoding utf-8
 Sheet 1 3
 Title "F7 Micro Embed Breakout"
-Date "2020-01-26"
-Rev "A"
+Date "2020-09-05"
+Rev "B"
 Comp ""
 Comment1 "S. Johnson"
 Comment2 ""
