@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name F7MicroEmbedBreakout_RevA-rescue)(type Legacy)(uri ${KIPRJMOD}/F7MicroEmbedBreakout_RevA-rescue.lib)(options "")(descr ""))
 )
