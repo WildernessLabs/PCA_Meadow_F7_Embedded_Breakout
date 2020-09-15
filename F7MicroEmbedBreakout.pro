@@ -1,4 +1,4 @@
-update=9/7/2020 3:41:06 PM
+update=9/15/2020 2:54:19 PM
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=/Users/sheldon/Meadow-Reference-Designs/KiCAd_Libs/WildernessLab_pagelayout.kicad_wks
+PlotDirectoryName=./
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -71,8 +81,8 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0.0254
-SolderMaskMinWidth=0.0508
+SolderMaskClearance=0.01
+SolderMaskMinWidth=0.1524
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
@@ -275,13 +285,3 @@ uViaDrill=0.1
 dPairWidth=0.1651
 dPairGap=0.254
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=/Users/sheldon/Meadow-Reference-Designs/KiCAd_Libs/WildernessLab_pagelayout.kicad_wks
-PlotDirectoryName=./
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
